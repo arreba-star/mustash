@@ -3,6 +3,7 @@ noseY = 0;
 
 function preload(){
     mustanch = loadImage("https://i.postimg.cc/3x3QzSGq/m.png");
+    hat = loadImage("https://i.postimg.cc/909D6KkX/morio.jpg")
 }
 function setup(){
     canvas = createCanvas(300 , 300);
@@ -24,7 +25,9 @@ function take_snapshot(){
 
 function draw(){
     image(video , 0 , 0 , 300 , 300);
-    image(mustanch , noseX - 15 , noseY - 8 , 30 , 50);
+    image(mustanch , noseX - 25 , noseY - 8 , 60 , 50);
+    image(hat , noseX - 25 , noseY - 90 , 60 , 60);
+
 }
 
 
